@@ -1,8 +1,9 @@
-const CACHE_NAME = 'capoeira-manager-v1';
+const CACHE_NAME = 'capoeira-system-v1';
 
 const urlsToCache = [
   './',
-  './index.html'
+  './index.html',
+  './manifest.json'
 ];
 
 self.addEventListener('install', event => {
